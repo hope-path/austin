@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="page-header">
+        <h1>create store</h1>
+    </div>
+    <div class="siz">
+    <form method="post">
+        <div class="form-group">
+            <label for="name">store name:</label>
+            <input class="form-control" id="name" name="name" type="text" placeholder="store name">
+        </div>
+        <div class="form-group">
+            <label for="url_prefix">URL_Prefix:</label>
+            <input class="form-control" id="url_prefix" name="url_prefix" type="text" placeholder="url_prefix">
+        </div>
+        <div class="form-group">
+            <label for="tagname">tag_name:</label>
+            <input class="form-control" id="tagname" name="tagname" type="text"  value="span" placeholder="tagname">
+        </div>
+        <div class="form-group">
+            <label for="query">query:</label>
+            <input class="form-control" id="query" name="query" type="text"  value='{"id":"price-now"}' placeholder='{"id":"price-now"}'>
+        </div>
+        <button type="submit" class="btn btn-success" > create</button>
+    </form>
+    </div>
+{% endblock %}

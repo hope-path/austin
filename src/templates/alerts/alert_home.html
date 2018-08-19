@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="jumbotron">
+        <h1>Alerts Service</h1>
+        <p>we scan the online price for items and give the alert on the price drop</p>
+
+        <p>if u have signed in or logged in then continue to create alerts</p>
+        <p><a class="btn btn-success" href="{{url_for('alerts.create_alert')}}" role="button">Start to create alerts</a></p>
+    </div>
+{% endblock %}
