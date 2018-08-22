@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="87a26aaa-3382-4a7f-937c-70b79174ae63" name="Default" comment="procfile changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
     </list>
     <list id="35d5052e-448e-414d-978e-b20b51fa0fb2" name="Revert: procfile changed" comment="">
       <change beforePath="$PROJECT_DIR$/Procfile.txt" beforeDir="false" />
@@ -18,7 +17,7 @@
     <session id="-534577789">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.32" value="1" />
@@ -456,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534867688871</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="procfile changed">
+      <created>1534868278403</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534868278403</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -470,7 +476,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4914842" visible="true" weight="0.16294643" />
       <window_info id="Structure" order="1" weight="0.25" />
